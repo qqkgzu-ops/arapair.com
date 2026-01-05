@@ -1,54 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARAKET APPLIANCE REPAIR</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin:0; padding:0; background: #f4f4f4; color: #333; }
-        header { background: #003366; color: white; text-align: center; padding: 30px 10px; }
-        header h1 { margin: 0; font-size: 2.5em; }
-        header p { margin: 5px 0 0 0; font-size: 1.2em; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .buttons { margin: 20px 0; display: flex; gap: 10px; flex-wrap: wrap; }
-        .buttons a, .buttons button { flex: 1; text-align: center; padding: 15px; font-size: 1em; border-radius: 5px; text-decoration: none; color: white; background: #003366; border: none; cursor: pointer; }
-        .buttons a:hover, .buttons button:hover { background: #0055aa; }
-        form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
-        form button { background: #003366; color: white; border: none; padding: 15px; border-radius: 5px; cursor: pointer; width: 100%; font-size: 1em; }
-        form button:hover { background: #0055aa; }
-        footer { text-align: center; padding: 15px; background: #003366; color: white; margin-top: 30px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARAKET APPLIANCE REPAIR</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; color:#333; }
+header { background:#003366; color:white; text-align:center; padding:30px 10px; }
+header h1 { margin:0; font-size:2.5em; }
+header p { margin:5px 0 0 0; font-size:1.2em; }
+.container { max-width:800px; margin:20px auto; padding:20px; background:white; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+.buttons { margin:20px 0; display:flex; gap:10px; flex-wrap:wrap; }
+.buttons a, .buttons button { flex:1; text-align:center; padding:15px; font-size:1em; border-radius:5px; text-decoration:none; color:white; background:#003366; border:none; cursor:pointer; }
+.buttons a:hover, .buttons button:hover { background:#0055aa; }
+form input, form textarea { width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc; }
+form button { background:#003366; color:white; border:none; padding:15px; border-radius:5px; cursor:pointer; width:100%; font-size:1em; }
+form button:hover { background:#0055aa; }
+footer { text-align:center; padding:15px; background:#003366; color:white; margin-top:30px; }
+</style>
 </head>
 <body>
-    <header>
-        <h1>ARAKET APPLIANCE REPAIR</h1>
-        <p>Professional Appliance Repair in Schaumburg & North Chicago</p>
-    </header>
+<header>
+<h1>ARAKET APPLIANCE REPAIR</h1>
+<p>Professional Appliance Repair in Schaumburg & North Chicago</p>
+</header>
 
-    <div class="container">
-        <div class="buttons">
-            <!-- Call button -->
-            <a href="tel:2242341862">Call 224-234-1862</a>
-            <!-- SMS button -->
-            <a href="sms:2242341862">Send SMS</a>
-            <!-- Message form button scroll -->
-            <button onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'});">Send Message</button>
-        </div>
+<div class="container">
+<div class="buttons">
+<a href="tel:2242341862">Call 224-234-1862</a>
+<a href="sms:2242341862">Send SMS</a>
+<button onclick="document.getElementById('contactForm').scrollIntoView({behavior:'smooth'});">Send Message</button>
+</div>
 
-        <div id="contactForm">
-            <h2>Send us a message</h2>
-            <form action="https://formspree.io/f/mdakyqjg" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </div>
+<div id="contactForm">
+<h2>Send us a message</h2>
+<form action="https://formspree.io/f/mdakyqjg" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+</div>
 
-    <footer>
-        &copy; 2026 ARAKET APPLIANCE REPAIR. All rights reserved.
-    </footer>
+<footer>
+&copy; 2026 ARAKET APPLIANCE REPAIR. All rights reserved.
+</footer>
 </body>
 </html>
-
